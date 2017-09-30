@@ -15,10 +15,10 @@ What users can do is dictated by thier status on the site:
 
 ToDo:
 
-[] write test specs for models (unit tests)
-[] implement authentication on site (Devise)
-[] implement profile based authorization on site (Pundit)
-[] produce templates for pages  
+* write test specs for models (unit tests)
+* implement authentication on site (Devise)
+* implement profile based authorization on site (Pundit)
+* produce templates for pages  
 
 # Testing Specs
 
