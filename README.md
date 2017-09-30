@@ -18,11 +18,12 @@ ToDo..
 - [ ] write test specs for models (unit tests)
 - [ ] implement authentication on site (Devise)
 - [ ] implement profile based authorization on site (Pundit)
-- [ ] produce templates for pages  
+- [ ] produce templates for pages
+- [ ] provide client-side list for Cities in forms.  
 
 # Testing Specs
 
-### Testing Specs for Users:
+### Test Specs for Users
 first_name: string
 last_name: string
 email: string
@@ -32,8 +33,20 @@ email: string
 - [x] last_name must be present
 - [x] last_name must be between 2 characters and 100 characters
 - [x] email must be present
-- [x] email must conform to basic email regex, i.e., "VALID_EMAIL_REGEX = /\A[\w+\-.]+@[a-z\d\-]+(\.[a-z]+)*\.[a-z]+\z/i"
+- [x] email must conform to basic email
 - [ ] if a user is registering then they must provide a password
 - [ ] if a user is registering they must provide a password confirmation that matches thier password
 - [ ] passwords for users registering must be at least 8 characters
 - [ ] passwords must contain at least 1 number and one uppercase letter
+
+### Test Specs for Cities
+name: string
+- [ ] first_name must be present
+- [ ] first_name must be between 2 characters and 100 characters
+
+### Test Specs for Venues
+name: string
+accom_type_id: integer
+address_1: string
+address_2: string
+city_id: integer
