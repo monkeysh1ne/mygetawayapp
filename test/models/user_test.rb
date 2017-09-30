@@ -3,7 +3,8 @@ require 'test_helper'
 class UserTest < ActiveSupport::TestCase
 
   def setup
-    @user = User.new(first_name: "Angie", last_name: "Dickison", email: "AngieD@example.com")
+    # @user = User.new(first_name: "Angie", last_name: "Dickison", email: "AngieD@example.com")
+    @user = create(:user) # FactoryGirl approach
   end
 
   test "user should be valid" do
