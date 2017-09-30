@@ -13,12 +13,12 @@ What users can do is dictated by thier status on the site:
 - registered user, or
 - venue manager
 
-ToDo:
+ToDo..
 
-* write test specs for models (unit tests)
-* implement authentication on site (Devise)
-* implement profile based authorization on site (Pundit)
-* produce templates for pages  
+- write test specs for models (unit tests)
+- implement authentication on site (Devise)
+- implement profile based authorization on site (Pundit)
+- produce templates for pages  
 
 # Testing Specs
 
