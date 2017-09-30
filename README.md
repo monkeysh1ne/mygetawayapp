@@ -41,8 +41,8 @@ email: string
 
 ### Test Specs for Cities
 name: string
-- [ ] first_name must be present
-- [ ] first_name must be between 2 characters and 100 characters
+- [x] name must be present
+- [ ] name must be between 2 characters and 100 characters
 
 ### Test Specs for Venues
 name: string

@@ -18,11 +18,13 @@ gem 'better_errors', '~> 2.3'
 gem 'haml', '~> 5.0', '>= 5.0.3'
 gem 'simple_form', '~> 3.5'
 gem 'pundit', '~> 1.1'
+gem 'factory_girl', '~> 4.8', '>= 4.8.1'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'capybara', '~> 2.13'
   gem 'selenium-webdriver'
+  gem 'factory_girl_rails'
 end
 
 group :development do
