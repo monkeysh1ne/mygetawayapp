@@ -50,3 +50,16 @@ accom_type_id: integer
 address_1: string
 address_2: string
 city_id: integer
+
+- [ ] name must be present
+- [ ] accom_type_id must be present
+- [ ] address_1 must be present
+- [ ] address_1 must be between 1 and 40 chars
+- [ ] address_2 must be between 2 and 100 chars
+- [ ] city_id must be present
+- [ ] city_id must be a positive integer
+
+### Test Specs for Accom Type
+name: string
+
+- [ ] name must be present

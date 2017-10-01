@@ -1,0 +1,2 @@
+class AccomType < ApplicationRecord
+end
